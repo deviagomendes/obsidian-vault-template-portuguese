@@ -16,8 +16,8 @@ Key concepts of algorithmic complexity analysis.
 
 ## Content
 1. Big O Notation
-3. Time Complexity
-4. Space Complexity
+2. Time Complexity
+3. Space Complexity
 
 ## References
 - [[Data Structures]]
