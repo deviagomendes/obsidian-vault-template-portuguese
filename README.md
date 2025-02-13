@@ -158,7 +158,7 @@ The system incorporates practices from:
 
 ## ⚙️ Suggested Plugins
 
-This template is designed to work without any community plugins, allowing you to start clean and build based on your needs. Here are some plugin suggestions that can enhance your experience:
+This template is designed to work without any community plugins, allowing you to start clean and build based on your needs. Here are some great plugin suggestions that can enhance your experience:
 
 ### Core functionality enhancers:
 - Dataview: For advanced data queries and dynamic content, making the best use of properties
