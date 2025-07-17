@@ -1,68 +1,70 @@
-# 🗃️ Obsidian Vault Template
+# 🗃️ Template de Vault do Obsidian
 
-A minimalist yet powerful template for organizing your Obsidian vault, focusing on simplicity and efficiency. The key feature of this system is its **intentionally controlled structure** with a two-level depth hierarchy, complemented by a robust properties and tagging system.
+Um template minimalista e poderoso para organizar seu vault do Obsidian, focando em simplicidade e eficiência. A característica principal deste sistema é sua **estrutura intencionalmente controlada** com hierarquia de dois níveis de profundidade, complementada por um sistema robusto de propriedades e tags.
 
-## ✨ Features
+> **Nota**: Este é um fork traduzido e adaptado para português brasileiro do template original. Créditos ao criador original do sistema de organização.
 
-- 📁 **Controlled Hierarchy**: Two-level depth maximum - keeps things organized yet simple!
-- 🏷️ Properties-based organization with comprehensive tagging
-- 🔗 Strategic use of links and MOCs (Maps of Content)
-- 📝 Ready-to-use templates for different note types
-- 🚀 Easy to start, powerful to scale
+## ✨ Características
 
-## 🎯 Why Use This Template?
+- 📁 **Hierarquia Controlada**: Máximo de dois níveis de profundidade - mantém as coisas organizadas e simples!
+- 🏷️ Organização baseada em propriedades com sistema abrangente de tags
+- 🔗 Uso estratégico de links e MOCs (Mapas de Conteúdo)
+- 📝 Templates prontos para uso para diferentes tipos de notas
+- 🚀 Fácil de começar, poderoso para escalar
 
-### Key Benefits
-- **Simplicity**: Maximum two clicks to access any information
-- **Efficiency**: Reduces "analysis paralysis" when deciding where to store notes
-- **Flexibility**: Grows organically with your use
-- **Maintenance**: Easy to maintain and reorganize when needed
+## 🎯 Por Que Usar Este Template?
 
-## 🚀 Getting Started
+### Principais Benefícios
+- **Simplicidade**: Máximo de dois cliques para acessar qualquer informação
+- **Eficiência**: Reduz a "paralisia de análise" ao decidir onde armazenar notas
+- **Flexibilidade**: Cresce organicamente com seu uso
+- **Manutenção**: Fácil de manter e reorganizar quando necessário
 
-1. Clone this repository or download as ZIP
-2. Open Obsidian
-3. Select "Open folder as vault" and choose the template folder
-4. Check `99 - Meta/System/` for detailed guides on how to use the system
+## 🚀 Como Começar
 
-## 📁 Folder Structure
+1. Clone este repositório ou baixe como ZIP
+2. Abra o Obsidian
+3. Selecione "Abrir pasta como vault" e escolha a pasta do template
+4. Confira `99 - Meta/Sistema/` para guias detalhados sobre como usar o sistema
+
+## 📁 Estrutura de Pastas
 
 ```
 .
-├── 00 - Dashboard/         # Central hub of the vault
-├── 01 - Personal/          # Personal content and diary
-│   ├── Daily/
-│   ├── Fleeting/
-│   ├── Plans/
-│   ├── Reflections/
-│   └── Health/
-├── 02 - Knowledge/         # Study notes by area
-│   ├── Computing/          # Examples of knowledge areas
-│   ├── Philosophy/
-│   ├── History/
-│   ├── Literature/
-│   └── Health/
-├── 03 - Projects/          # Projects in development
-│   ├── Project1/
-│   ├── Project2/
-│   └── Project3/
-├── 04 - References/        # Source material and bibliography
-│   ├── Articles/
-│   ├── Courses/
-│   ├── Books/
-│   └── Tutorials/
-└── 99 - Meta/              # System and templates
+├── 00 - Dashboard/         # Hub central do vault
+├── 01 - Pessoal/          # Conteúdo pessoal e diário
+│   ├── Diário/
+│   ├── Notas Rápidas/
+│   ├── Planos/
+│   ├── Reflexões/
+│   └── Saúde/
+├── 02 - Conhecimento/      # Notas de estudo por área
+│   ├── Computação/         # Exemplos de áreas de conhecimento
+│   ├── Filosofia/
+│   ├── História/
+│   ├── Literatura/
+│   └── Saúde/
+├── 03 - Projetos/          # Projetos em desenvolvimento
+│   ├── Projeto1/
+│   ├── Projeto2/
+│   └── Projeto3/
+├── 04 - Referências/       # Material de referência e bibliografia
+│   ├── Artigos/
+│   ├── Cursos/
+│   ├── Livros/
+│   └── Tutoriais/
+└── 99 - Meta/              # Sistema e templates
     ├── Templates/
-    └── System/
+    └── Sistema/
 ```
 
-## 📑 Note Properties Structure
+## 📑 Estrutura de Propriedades das Notas
 
-Every note in the system uses these standard properties in the YAML frontmatter:
+Cada nota no sistema usa essas propriedades padrão no frontmatter YAML:
 
 ```yaml
 ---
-aliases: [Alternative Names]
+aliases: [Nomes Alternativos]
 tags:
   - type/study
   - context/academic
@@ -73,122 +75,122 @@ last_updated: 2024-01-10
 ---
 ```
 
-### Example Note Structure
+### Exemplo de Estrutura de Nota
 
-[Check here](02%20-%20Knowledge/Computer/Algorithm_complexity.md)
+[Confira aqui](02%20-%20Conhecimento/Computação/Algorithm_complexity.md)
 
-## 🏷️ Tagging System
-Tags are implemented within the properties system as shown in the examples above. Check [tag guide](99%20-%20Meta/System/Guide%20to%20Tags%20and%20Links%20-%20Note%20Organization%20in%20Obsidian.md) for a complete list.
+## 🏷️ Sistema de Tags
+As tags são implementadas dentro do sistema de propriedades como mostrado nos exemplos acima. Confira o [guia de tags](99%20-%20Meta/Sistema/Guia%20de%20Tags%20e%20Links%20-%20Organização%20de%20Notas%20no%20Obsidian.md) para uma lista completa.
 
-### 1. Type Tags
-Identify the nature of the note:
+### 1. Tags de Tipo
+Identificam a natureza da nota:
 ```
-#type/task       → Tasks
-#type/project    → Projects
-#type/daily      → Daily notes
-#type/study      → Study material
+#type/task       → Tarefas
+#type/project    → Projetos
+#type/daily      → Notas diárias
+#type/study      → Material de estudo
 #type/idea       → Insights
-#type/reflection → Reflections
-#type/habits     → Routines and habits
+#type/reflection → Reflexões
+#type/habits     → Rotinas e hábitos
 ```
 
-### 2. Context Tags
-Indicate the note's environment:
+### 2. Tags de Contexto
+Indicam o ambiente da nota:
 ```
-#context/studies     → Learning
-#context/work        → Professional
-#context/personal    → Personal development
-#context/academic    → University
-#context/hobbies     → Personal interests
-```
-
-### 3. Theme Tags
-Organize by knowledge area:
-```
-Computing:
-#theme/cybersecurity → Security
-#theme/dev           → Development
-#theme/os            → Operating systems
-#theme/algorithms    → Algorithms and structures
-#theme/AI            → Artificial intelligence
-
-...and much more (see complete tag guide)
+#context/studies     → Aprendizado
+#context/work        → Profissional
+#context/personal    → Desenvolvimento pessoal
+#context/academic    → Universidade
+#context/hobbies     → Interesses pessoais
 ```
 
-### 4. Metadata Tags
-Control status and priority:
+### 3. Tags de Tema
+Organizam por área de conhecimento:
+```
+Computação:
+#theme/cybersecurity → Segurança
+#theme/dev           → Desenvolvimento
+#theme/os            → Sistemas operacionais
+#theme/algorithms    → Algoritmos e estruturas
+#theme/AI            → Inteligência artificial
+
+...e muito mais (veja o guia completo de tags)
+```
+
+### 4. Tags de Metadados
+Controlam status e prioridade:
 ```
 #status/[completed|in-progress|planning|idea]
 #priority/[high|medium|low]
 #review/[pending|completed|needed]
 ```
 
-### Tag Usage Best Practices
+### Melhores Práticas de Uso de Tags
 
-#### Required Minimum Tags
-To maintain consistency and facilitate search, each note should include at minimum in its properties:
-1. One type tag (`#type/...`)
-2. One context tag (`#context/...`)
-3. One theme tag (`#theme/...`)
-4. One status/priority tag when applicable
+#### Tags Mínimas Obrigatórias
+Para manter consistência e facilitar a busca, cada nota deve incluir no mínimo em suas propriedades:
+1. Uma tag de tipo (`#type/...`)
+2. Uma tag de contexto (`#context/...`)
+3. Uma tag de tema (`#theme/...`)
+4. Uma tag de status/prioridade quando aplicável
 
-## 🔗 Linking System
+## 🔗 Sistema de Links
 
-### Link Types
-1. **Direct Links**: `[[Note Name]]`
-2. **Alias Links**: `[[Note Name|Displayed Text]]`
-3. **Section Links**: `[[Note Name#Section]]`
+### Tipos de Links
+1. **Links Diretos**: `[[Nome da Nota]]`
+2. **Links com Alias**: `[[Nome da Nota|Texto Exibido]]`
+3. **Links de Seção**: `[[Nome da Nota#Seção]]`
 
-### Recommended Practices
-- Create meaningful connections
-- Use MOCs (Maps of Content) to organize themes
-- Leverage backlinks to discover relationships
-- Build flexible hierarchies through links
+### Práticas Recomendadas
+- Criar conexões significativas
+- Usar MOCs (Mapas de Conteúdo) para organizar temas
+- Aproveitar backlinks para descobrir relacionamentos
+- Construir hierarquias flexíveis através de links
 
-## 📚 Integrated Methods
+## 📚 Métodos Integrados
 
-The system incorporates practices from:
-- **Zettelkasten**: Interconnected atomic notes
-- **PARA**: Projects, Areas, Resources, Archives
-- **Building a Second Brain**: Knowledge capture and organization
-- **GTD**: Getting Things Done for task management
-- **Feynman Technique**: Teaching to learn
-- **Interrogative Elaboration**: Question-based learning
-- **Cornell Method**: Systematic note-taking and review
+O sistema incorpora práticas de:
+- **Zettelkasten**: Notas atômicas interconectadas
+- **PARA**: Projetos, Áreas, Recursos, Arquivos
+- **Building a Second Brain**: Captura e organização de conhecimento
+- **GTD**: Getting Things Done para gerenciamento de tarefas
+- **Técnica Feynman**: Ensinar para aprender
+- **Elaboração Interrogativa**: Aprendizado baseado em perguntas
+- **Método Cornell**: Anotações sistemáticas e revisão
 
-## ⚙️ Suggested Plugins
+## ⚙️ Plugins Sugeridos
 
-This template is designed to work without any community plugins, allowing you to start clean and build based on your needs. Here are some great plugin suggestions that can enhance your experience:
+Este template foi projetado para funcionar sem plugins da comunidade, permitindo que você comece limpo e construa baseado em suas necessidades. Aqui estão algumas ótimas sugestões de plugins que podem melhorar sua experiência:
 
-### Core functionality enhancers:
-- Dataview: For advanced data queries and dynamic content, making the best use of properties
-- Calendar: Better date management and daily notes
-- Tag Wrangler: Improved tag management
-- Homepage: Custom startup page
-- Iconize: Visual enhancement with icons
+### Melhoradores de funcionalidade principal:
+- Dataview: Para consultas avançadas de dados e conteúdo dinâmico, aproveitando ao máximo as propriedades
+- Calendar: Melhor gerenciamento de datas e notas diárias
+- Tag Wrangler: Gerenciamento aprimorado de tags
+- Homepage: Página inicial personalizada
+- Iconize: Melhoria visual com ícones
 
-### Optional extensions:
-- Natural Language Dates: More intuitive date inputs
-- Kanban: Visual task management
-- Templater: Advanced template functionality
+### Extensões opcionais:
+- Natural Language Dates: Entradas de data mais intuitivas
+- Kanban: Gerenciamento visual de tarefas
+- Templater: Funcionalidade avançada de templates
 
-All plugins are optional - feel free to install only what fits your workflow!
+Todos os plugins são opcionais - sinta-se livre para instalar apenas o que se adequa ao seu fluxo de trabalho!
 
-## 🤝 Contributing
+## 🤝 Contribuindo
 
-Contributions are welcome! Feel free to:
-1. Create Issues with suggestions
-2. Submit Pull Requests with improvements
-3. Share your experiences using the template
-4. Report bugs or problems
+Contribuições são bem-vindas! Sinta-se livre para:
+1. Criar Issues com sugestões
+2. Enviar Pull Requests com melhorias
+3. Compartilhar suas experiências usando o template
+4. Reportar bugs ou problemas
 
-## 📝 License
+## 📝 Licença
 
-This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 🙏 Acknowledgments
+## 🙏 Agradecimentos
 
-This template was inspired by various knowledge management systems and the Obsidian community. Special thanks to:
-- Zettelkasten Methodology
-- Tiago Forte's PARA System
-- r/Obsidian community
+Este template foi inspirado por vários sistemas de gerenciamento de conhecimento e pela comunidade do Obsidian. Agradecimentos especiais para:
+- Metodologia Zettelkasten
+- Sistema PARA do Tiago Forte
+- Comunidade r/Obsidian
